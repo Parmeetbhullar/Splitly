@@ -15,7 +15,7 @@ const FetchSubscriptionsButton = () => {
   const fetchSubscriptions = async () => {
     setLoading(true);
     try {
-      const accessToken = 'access-sandbox-7d08557c-64fa-4a44-9f6d-d9b958998382';
+      const accessToken = 'access-sandbox-7d08557c-64fa-4a44-9f6d-dxxxxxxxxxx2';
 
       const res = await axios.post('http://localhost:5000/api/plaid/transactions', {
         access_token: accessToken,
